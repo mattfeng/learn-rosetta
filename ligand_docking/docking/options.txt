@@ -5,7 +5,7 @@
 
 -in
 	-file
-		-s 3PBL_ETQ.pdb
+		-s 3pbl_ETQ.pdb
 		-extra_res_fa ETQ.params
 
 #the packing options allow Rosetta to sample additional rotamers for
@@ -36,4 +36,4 @@
 
 -mistakes
 	-restore_pre_talaris_2013_behavior true
--nstruct 5 
+-nstruct 500
