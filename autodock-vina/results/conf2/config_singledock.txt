@@ -1,0 +1,27 @@
+# CONFIGURATION FILE
+
+# INPUT OPTIONS 
+receptor = ../1HSG_prot.pdbqt
+ligand = ../indinavir.pdbqt
+# flex = [flexible residues in receptor in pdbqt format] 
+
+# SEARCH SPACE CONFIGURATIONS 
+# Center of the box (coordinates x, y and z)
+center_x = 14
+center_y = 18
+center_z = 0
+# Size of the box (dimensions in x, y and z) 
+size_x = 20
+size_y = 20
+size_z = 20
+
+# OUTPUT OPTIONS 
+# out = [output pdbqt file for all conformations]
+# log = [output log file for binding energies]
+
+# OTHER OPTIONS 
+# cpu = [value] # more cpus reduces the computation time
+# exhaustiveness = 16
+# num_modes = [value] # maximum number of binding modes to generate, default is 9
+# energy_range = [value] # maximum energy difference between the best binding mode and the worst one displayed (kcal/mol), default is 3
+# seed = [value] # explicit random seed, not required
